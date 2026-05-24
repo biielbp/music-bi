@@ -1,0 +1,55 @@
+#logo{
+    display: flex;
+}
+#logo img{
+    width: 250px;
+}
+
+#box-conta{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+#btn-entrar button{
+    background: none;
+    width: 150px;
+    height: 40px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+#btn-entrar button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1E1B2E;
+}
+
+#btn-criarConta button{
+    background: none;
+    width: 150px;
+    height: 40px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+#btn-criarConta button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #61569c;
+}
+
+#box-apresentation h1{
+    font-weight: bold;
+    font-size: 50px ;
+}
+
+#box-apresentation span{
+    font-size: 20px;
+}
+
+#tablet{
+    border-radius: 50% 20%;
+    margin-left: 200px;
+    width: 500px;
+}
