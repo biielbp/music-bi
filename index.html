@@ -4,213 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>MusicBi</title>
 
-    <title>biielbp</title>
+
 </head>
-<body class="pt-5" style="font-family: 'PPoppins', sans-serif;;">
-
-
-    <div class="container-fluid header fixed-top">
-        <div class="row">
-            <div class="box-bolinhas">
-                <div id="bolinha1"></div>
-                <div id="bolinha2"></div>
-                <div id="bolinha3"></div>
-                <div class="ms-auto">
-                    <div id="logo-img">
-                        <img src="img/logo1.png" alt="biielbp">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <br>
-
-<section class="conteudo-1">
+<body style="background-color: #1E1B2E">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <div class="col">
-            <div class="box-texto">
-                <div id="texto">
-                   <h1 class="typing">
-                        &lt;<span>/</span>&gt;<span class="texto-digitando"></span>
-                        </h1>
-                    <div id="text-apresentation">
-                        <p>Eu sou o <span style="color: rgb(32, 250, 32);">Gabriel</span> ツ</p> 
-                    </div>
-                </div>
+
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html">
+            <img src="img/logo.png" alt="MusicBi" width="200px">
+        </a>
+
+        <!-- BOTÃO HAMBÚRGUER -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+            <div id="area-btn">
+                <button class="btn btn-outline-dark me-2">Entrar</button>
+                <button class="btn btn-dark">Criar Conta</button>
             </div>
+
         </div>
+
     </div>
+</nav>
 
     <div class="container">
-       <div id="descricao">
-        <p> Sou um estudante de TI, que está sempre em busca de aprender coisas novas e evoluir minhas habilidades. <br>
-        Iniciante mas tenho grande interesse por desenvolvimento e gosto de explorar novas ferramentas e tendências da área. <br>
-        No meu tempo livre, curto muito ouvir música — especialmente Melanie Martinez 🎧 — além de jogar e aproveitar momentos com amigos.</p>
-       </div>
-     </div>
-
-     <h2 class="text-center mt-5">Minhas Habilidades</h2>
-     <div class="container">
-        <div class="row"> 
-
-                <div class="col-6 col-md-3">
-                    <div class="box-habilidade">
-                        <div class="card">
-                             <div>
-                                <img src="img/html-5.png" alt="">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="box-habilidade">
-                        <div class="card">
-                             <div>
-                                <img src="img/css-3.png" alt="">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-3">
-                    <div class="box-habilidade">
-                        <div class="card">
-                             <div>
-                                <img src="img/pngwing.com.png" alt="">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="box-habilidade">
-                        <div class="card">
-                             <div>
-                                <img src="img/c-.png" alt="">
-                             </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-     </div>
-
-     <br><br>
-</section>
-
-<section class="conteudo-2">
-
-<div class="container">
-    <h2 class="text-center " style="color: white; padding-top: 10px;">Jogos</h2>
-
-    <div class="row justify-content-center mt-4">
-
-        <div class="col-6 col-md-4">
-            <div class="card-jogo">
-                <img src="img/dead.png" alt="Jogo 1">
-            </div>
-        </div>
-
-        <div class="col-6 col-md-4">
-            <div class="card-jogo">
-                <img src="img/fortnite.jpeg" alt="Jogo 2">
-            </div>
-        </div>
-
-    </div>
-</div>
-<br>
-
-</section>
-
-<section class="conteudo-1">
-     <h2 class="text-center " style="color: white; padding-top: 10px;">Músicas</h2>
-
-     <div class="container">
     <div class="row align-items-center">
 
-        <!-- IMAGEM -->
-        <div class="col-md-4 text-center mb-4">
-            <img src="img/melanie.png" class="img-fluid rounded">
+        <!-- TEXTO (ESQUERDA) -->
+        <div class="col-md-6">
+
+            <div class="box-apresentation">
+                <h1>Sua música.</h1>
+                <h1>Sua voz.</h1>
+                <h1>Sua <span style="color: #7C3AED;">comunidade.</span></h1>
+            </div>
+
+            <div class="apresentation mt-3">
+                <span>Descubra novas músicas, avalie seus</span><br>
+                <span>favoritos e conecte-se com pessoas que</span><br>
+                <span>têm o mesmo som que você.</span>
+            </div>
+
         </div>
 
-        <!-- ÁLBUNS -->
-        <div class="col-md-8">
-            <div class="row">
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                      <a href="https://open.spotify.com/album/6SofgtEJMBszSNrMYlCEci?si=umdzVn2HRmSaWWzgW0ImTg"><img src="img/dollhouse.jpg"></a>  
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                      <a href="https://open.spotify.com/intl-pt/album/5JpH5T1sCYnUyZD6TM0QaY?si=rm4xNN7uSISrN34-Cmbc0Q"><img src="img/crybaby.jpg"></a>  
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                       <a href="https://open.spotify.com/intl-pt/album/1KerGJUScYGffP3Mjmjz8c?si=dtjCD_FkRs64_QFmzmL3CQ"><img src="img/k12.png"></a> 
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                       <a href="https://open.spotify.com/album/75sm9IEmN01J5MsyZr4Cw1?si=U-7LXYaNR0i5YUApH3uLtg"> <img src="img/after.png"></a>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                       <a href="https://open.spotify.com/intl-pt/album/6lbrHERXve89hrxuCpsJOg?si=xp53_SQXTkylL4UC47ONDg"> <img src="img/portals.png"></a>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <div class="album">
-                       <a href="https://open.spotify.com/intl-pt/album/7jwikgbD6e5Oht9gJzaR3l?si=ikqzOrDMS56Y50ZbYuf3eA"><img src="img/hades.jpg"></a> 
-                    </div>
-                </div>
-
-            </div>
+        <!-- IMAGEM (DIREITA) -->
+        <div class="col-md-6 text-center tablet">
+            <img src="img/tablet.png" class="img-fluid" alt="imagem">
         </div>
 
     </div>
 </div>
-</section>
 
-<section> <br> <br>
-    <div class="container">
-        <div class="row justify-content-center text-center">
-            <div class="col">
-               <div class="box-contato">
-                   <a href="https://www.instagram.com/biielbp/"><img src="img/instagram.png" alt=""></a> 
-               </div>
-            </div>
 
-            <div class="col">
-                <div class="box-contato">
-                   <a href="https://github.com/biielbp"><img src="img/github-logo.png" alt=""></a> 
-               </div>
-            </div>
 
-            <div class="col">
-               <div class="box-contato">
-                   <a href="#"><img src="img/linkedin.png" alt=""></a> 
-               </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <br><br><br><br>
-   <h1 style="text-align: center; font-family: ;">Gabriel Bernardes</h1>
-</section>
-
-    <script src="javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
