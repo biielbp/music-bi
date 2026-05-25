@@ -11,44 +11,63 @@
 
 </head>
 <body style="background-color: #1E1B2E">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
 
-    <!-- AQUI LOGO E NAV-->
-    <div class="container-fluid" style="background-color: rgb(255, 255, 255);">
-        <div id="logo">
-            <img src="img/logo.png" alt="MusicBi">
-            <div id="box-conta">
-            <div id="btn-entrar"><button>Entrar</button></div>
-            <div id="btn-criarConta"><button>Criar Conta</button></div>
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="index.html">
+            <img src="img/logo.png" alt="MusicBi" width="200px">
+        </a>
+
+        <!-- BOTÃO HAMBÚRGUER -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+            <div id="area-btn">
+                <button class="btn btn-outline-dark me-2">Entrar</button>
+                <button class="btn btn-dark">Criar Conta</button>
             </div>
+
         </div>
+
     </div>
-    <!--------------------------------------->
+</nav>
 
-    <div class="container" style="color: white; margin-top: 100px; display: flex;">
-        <div id="box-apresentation">
-            <h1>Sua música.</h1>
-            <h1>Sua voz.</h1>
-            <h1>Sua <marked style="color: #7C3AED;">comunidade.</marked></h1>
-            <span>Descubra novas músicas, avalie seus</span><br>
-            <span>favoritos e conecte-se com pessoas que</span><br>
-            <span>têm o mesmo som que você.</span> <br> <br>
+    <div class="container">
+    <div class="row align-items-center">
 
-           <div id="btn-entrar">
-            <button>Saiba Mais</button>
-           </div>
-        </div>
-      
+        <!-- TEXTO (ESQUERDA) -->
+        <div class="col-md-6">
 
-        <div id="box-tablet-tela">
-            <div id="tablet-tela">
-                <div class="container">
-                    <img id="tablet" src="img/tablet.png"  alt="tablet">
-                </div>
+            <div class="box-apresentation">
+                <h1>Sua música.</h1>
+                <h1>Sua voz.</h1>
+                <h1>Sua <span style="color: #7C3AED;">comunidade.</span></h1>
             </div>
+
+            <div class="apresentation mt-3">
+                <span>Descubra novas músicas, avalie seus</span><br>
+                <span>favoritos e conecte-se com pessoas que</span><br>
+                <span>têm o mesmo som que você.</span>
+            </div>
+
         </div>
 
+        <!-- IMAGEM (DIREITA) -->
+        <div class="col-md-6 text-center tablet">
+            <img src="img/tablet.png" class="img-fluid" alt="imagem">
+        </div>
 
-    
-    
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
